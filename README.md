@@ -1,5 +1,1 @@
-# поменять packaje.json !!!!!!!
-## Запустить команду -npm ci
-## Чтобы запустить процесс
- -gulp
-
+https://sashagurin.github.io/test__praga/build
