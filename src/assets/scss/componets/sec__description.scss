@@ -4,6 +4,39 @@
   padding: 40px;
   .description__items {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    & + * {
+      margin-top: 30px;
+    }
   }
+  .item {
+    width: 200px;
+    background: $primerycolor-white;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    .item__header {
+      height: 56px;
+      background: #ffffff;
+      border-bottom: 1px solid #c1c1c1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .item__body {
+      padding: 20px 45px;
+      text-align: center;
+      line-height: 120%;
+      .item__title {
+        font-weight: 500;
+        margin-bottom: 7px;
+      }
+      .item__text {
+        font-weight: 400;
+      }
 
+
+    }
+  }
 }

@@ -1,0 +1,29 @@
+@import "../main/vars";
+.button {
+  font-family: $primery-font;
+  font-size: 18px;
+  line-height: 21px;
+  color: $primerycolor-black;
+  padding: 10px 40px;
+
+  outline: none;
+  background-color: $primerycolor-white;
+  border: 1px solid #c1c1c1;
+  border-radius: 4px;
+
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(223, 223, 223);
+  }
+}
+
+.bitton__blue {
+  background-color: #4486fb;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  color: $primerycolor-white;
+  &:hover {
+    background-color: #2971ee;
+  }
+}
