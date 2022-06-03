@@ -1,1 +1,1 @@
-https://sashagurin.github.io/test__praga/build
+https://sashagurin.github.io/modal__praga-frontend-lunior-/build/
