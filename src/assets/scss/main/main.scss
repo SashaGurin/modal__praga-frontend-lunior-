@@ -25,6 +25,13 @@ body {
 
     background: $primerycolor-white;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+
+    @media (max-width: 768px) {
+      width: 100%;
+      top: 0px;
+      bottom: 0px;
+    }
+
   }
 
   .modal__content {
