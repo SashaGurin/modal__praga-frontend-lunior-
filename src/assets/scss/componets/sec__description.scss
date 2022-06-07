@@ -51,4 +51,7 @@
   .radio-select:checked + .item .item__header {
     border-color: #4486fb;
   }
+  .radio-select:checked + .item .icon-img {
+    fill:#4486fb
+  }
 }
